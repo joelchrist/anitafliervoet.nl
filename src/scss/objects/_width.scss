@@ -1,0 +1,15 @@
+.w-1024     { width: 1024px; }
+.w-1280     { width: 1280px; }
+.w-100      { width: 100%; }
+
+@media #{$breakpoint-md} {
+  .w-1024-md { width: 1024px; }
+  .w-1280-md { width: 1280px; }
+  .w-100-md { width: 100%; }
+}
+
+@media #{$breakpoint-lg} {
+  .w-1024-lg { width: 1024px; }
+  .w-1280-lg { width: 1280px; }
+  .w-100-lg  { width: 100%; }
+}

@@ -1,0 +1,66 @@
+.mw-measure-tiny    { max-width: 12em;  }
+.mw-measure-narrow  { max-width: 18em;  }
+.mw-measure-small   { max-width: 24em;  }
+.mw-measure-normal  { max-width: 32em;  }
+
+.mw-1024            { max-width: 1024px; }
+.mw-1280            { max-width: 1280px; }
+
+.mw-10              { max-width: 10%;   }
+.mw-20              { max-width: 20%;   }
+.mw-30              { max-width: 30%;   }
+.mw-40              { max-width: 40%;   }
+.mw-50              { max-width: 50%;   }
+.mw-60              { max-width: 60%;   }
+.mw-70              { max-width: 70%;   }
+.mw-80              { max-width: 80%;   }
+.mw-90              { max-width: 90%;   }
+.mw-100             { max-width: 100%;  }
+
+.mw-1920            { max-width: 1920px; }
+
+@media #{$breakpoint-md} {
+  .mw-measure-tiny-md    { max-width: 12em;  }
+  .mw-measure-narrow-md  { max-width: 18em;  }
+  .mw-measure-small-md   { max-width: 24em;  }
+  .mw-measure-normal-md  { max-width: 36em;  }
+
+  .mw-1024-md            { max-width: 1024px; }
+  .mw-1280-md            { max-width: 1280px; }
+
+  .mw-none-md            { max-width: none;  }
+
+  .mw-10-md              { max-width: 10%;   }
+  .mw-20-md              { max-width: 20%;   }
+  .mw-30-md              { max-width: 30%;   }
+  .mw-40-md              { max-width: 40%;   }
+  .mw-50-md              { max-width: 50%;   }
+  .mw-60-md              { max-width: 60%;   }
+  .mw-70-md              { max-width: 70%;   }
+  .mw-80-md              { max-width: 80%;   }
+  .mw-90-md              { max-width: 90%;   }
+  .mw-100-md             { max-width: 100%;  }
+}
+
+@media #{$breakpoint-lg} {
+  .mw-measure-tiny-lg    { max-width: 12em;  }
+  .mw-measure-narrow-lg  { max-width: 18em;  }
+  .mw-measure-small-lg   { max-width: 24em;  }
+  .mw-measure-normal-lg  { max-width: 36em;  }
+
+  .mw-1024-lg            { max-width: 1024px; }
+  .mw-1280-lg            { max-width: 1280px; }
+
+  .mw-none-lg            { max-width: none;  }
+
+  .mw-10-lg              { max-width: 10%;   }
+  .mw-20-lg              { max-width: 20%;   }
+  .mw-30-lg              { max-width: 30%;   }
+  .mw-40-lg              { max-width: 40%;   }
+  .mw-50-lg              { max-width: 50%;   }
+  .mw-60-lg              { max-width: 60%;   }
+  .mw-70-lg              { max-width: 70%;   }
+  .mw-80-lg              { max-width: 80%;   }
+  .mw-90-lg              { max-width: 90%;   }
+  .mw-100-lg             { max-width: 100%;  }
+}

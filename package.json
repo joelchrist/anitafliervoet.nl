@@ -1,0 +1,21 @@
+{
+  "name": "anitafliervoet.nl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "deploy": "npm run build && firebase deploy"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.0",
+    "gulp-dest-clean": "^0.5.0",
+    "gulp-file-include": "^2.0.1",
+    "gulp-foreach": "^0.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}

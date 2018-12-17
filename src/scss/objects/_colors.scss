@@ -1,0 +1,21 @@
+/* RGB */
+$brand: rgba(135, 179, 141, 1);
+$brand-lighter:   lighten($brand, 7%);
+$brand-darker: 	  desaturate(darken($brand, 12%), 20%);
+
+.c-brand          { color: $brand; }
+.c-brand-lighter  { color: $brand-lighter; }
+.c-brand-darker   { color: $brand-darker; }
+
+.c-lightest       { color: rgba(255, 255, 255, 1); }
+.c-lighter        { color: rgba(255, 255, 255, .8); }
+.c-light          { color: rgba(255, 255, 255, .6); }
+
+.c-dark           { color: rgba(0, 0, 0, .4); }
+.c-darker         { color: rgba(0, 0, 0, .6); }
+.c-darkest        { color: rgba(0, 0, 0, .8); }
+
+$color2: rgba(57, 61, 63, 1);
+$color3: rgba(253, 253, 255, 1);
+$color4: rgba(198, 197, 185, 1);
+$color5: rgba(69, 182, 156, 1);

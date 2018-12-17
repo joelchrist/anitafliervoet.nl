@@ -1,0 +1,29 @@
+.d-fl { display: flex }
+
+.fl-wr { flex-wrap: wrap }
+
+
+.fl-auto { flex: auto; }
+.fl-1 { flex: 1; }
+.fl-2 { flex: 2; }
+.fl-3 { flex: 3; }
+.fl-4 { flex: 4; }
+
+
+@media #{$breakpoint-md} {
+  .fl-md-auto { flex: auto; }
+  .fl-md-1 { flex: 1; }
+  .fl-md-2 { flex: 2; }
+  .fl-md-3 { flex: 3; }
+  .fl-md-4 { flex: 4; }
+}
+
+@media #{$breakpoint-lg} {
+  .fl-lg-auto { flex: auto; }
+  .fl-lg-1 { flex: 1; }
+  .fl-lg-2 { flex: 2; }
+  .fl-lg-3 { flex: 3; }
+  .fl-lg-4 { flex: 4; }
+}
+
+
