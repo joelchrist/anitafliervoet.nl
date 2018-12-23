@@ -1,0 +1,21 @@
+.massage-card {
+  @extend .bg-brand-lighter;
+  @extend .bs-heavy;
+  @extend .mb-m;
+  @extend .mh-m;
+
+  border-radius: 5px;
+
+  .massage-card-header {
+    @extend .pa-m;
+    @extend .bg-brand;
+    @extend .c-lighter;
+    @extend .fs-h6;
+  }
+
+  .massage-card-body {
+    @extend .pa-m;
+    @extend .c-light;
+
+  }
+}

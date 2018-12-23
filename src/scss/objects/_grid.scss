@@ -1,0 +1,154 @@
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.reverse-cells {
+  flex-direction: row-reverse;
+}
+
+.cell {
+  flex: 1;
+}
+
+.grid-vtop {
+  align-items: flex-start;
+}
+
+.grid-vbottom {
+  align-items: flex-end;
+}
+
+.grid-vcenter {
+  align-items: center;
+}
+
+.grid-hcenter {
+  justify-content: center;
+}
+
+.grid-hdistribute {
+  justify-content: space-around;
+}
+
+/* Columns */
+
+.grid.col-auto > .cell {
+  flex: 0;
+}
+.grid.col-fit > .cell {
+  flex: 1;
+}
+.grid.col-1 > .cell {
+  flex: 0 0 100%;
+}
+.grid.col-2 > .cell {
+  flex: 0 0 50%;
+}
+.grid.col-3 > .cell {
+  flex: 0 0 33.3333%;
+}
+.grid.col-4 > .cell {
+  flex: 0 0 25%;
+}
+.grid.col-6 > .cell {
+  flex: 0 0 (100% / 6);
+}
+
+@media #{$breakpoint-md} {
+  .grid.col-auto-m > .cell {
+    flex: 0;
+  }
+  .grid.col-fit-md > .cell {
+    flex: 1;
+  }
+  .grid.col-1-md > .cell {
+    flex: 0 0 100%;
+    @extend .mw-100-md;
+  }
+  .grid.col-2-md > .cell {
+    flex: 0 0 50%;
+    @extend .mw-50-md;
+  }
+  .grid.col-3-md > .cell {
+    flex: 0 0 33.3333%;
+  }
+  .grid.col-4-md > .cell {
+    flex: 0 0 25%;
+  }
+  .grid.col-6-md > .cell {
+    flex: 0 0 (100% / 6);
+  }
+}
+
+@media #{$breakpoint-lg} {
+  .grid.col-auto-l > .cell {
+    flex: 0;
+  }
+  .grid.col-fit-lg > .cell {
+    flex: 1;
+  }
+  .grid.col-1-lg > .cell {
+    flex: 0 0 100%;
+    @extend .mw-100-lg;
+  }
+  .grid.col-2-lg > .cell {
+    flex: 0 0 50%;
+    @extend .mw-50-lg;
+  }
+  .grid.col-3-lg > .cell {
+    flex: 0 0 33.3333%;
+  }
+  .grid.col-4-lg > .cell {
+    flex: 0 0 25%;
+  }
+  .grid.col-6-lg > .cell {
+    flex: 0 0 (100% / 6);
+  }
+}
+
+/* Gutter */
+
+.gutter-narrow {
+  margin-top: -$spacing-s;
+  margin-right: 0;
+  margin-bottom: $spacing-s;
+  margin-left: -$spacing-s;
+}
+.gutter-narrow > .cell {
+  padding: $spacing-s 0 0 $spacing-s;
+}
+
+.gutter {
+  margin-top: -$spacing-m;
+  margin-right: 0;
+  margin-bottom: $spacing-m;
+  margin-left: -$spacing-m;
+}
+.gutter > .cell {
+  padding: $spacing-m 0 0 $spacing-m;
+}
+
+.grid.gutter-l {
+  margin-top: -$spacing-l;
+  margin-right: 0;
+  margin-bottom: $spacing-l;
+  margin-left: -$spacing-l;
+}
+.grid.gutter-l > .cell {
+  padding: $spacing-l 0 0 $spacing-l;
+}
+
+.grid.gutter-xl {
+  margin-top: -$spacing-xl;
+  margin-right: 0;
+  margin-bottom: $spacing-xl;
+  margin-left: -$spacing-xl;
+}
+.grid.gutter-xl > .cell {
+  padding: $spacing-xl 0 0 $spacing-xl;
+}

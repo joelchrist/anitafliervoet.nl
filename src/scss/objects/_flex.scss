@@ -2,6 +2,10 @@
 
 .fl-wr { flex-wrap: wrap }
 
+.fl-c { flex-direction: column }
+
+
+.jc-sb { justify-content: space-between; }
 
 .fl-auto { flex: auto; }
 .fl-1 { flex: 1; }
@@ -25,5 +29,4 @@
   .fl-lg-3 { flex: 3; }
   .fl-lg-4 { flex: 4; }
 }
-
 
