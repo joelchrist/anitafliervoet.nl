@@ -1,7 +1,7 @@
 @import "reset";
 
-
-
+/* External */
+@import 'ionicons/ionicons';
 
 // Objects
 @import "objects/colors";
@@ -18,10 +18,11 @@
 @import "objects/text-align";
 @import "objects/box-shadow";
 @import "objects/grid";
+@import "objects/font-weight";
+@import "objects/line-height";
 
 
 @import 'typography';
-
 
 // Utils
 
@@ -30,3 +31,4 @@
 @import "components/nav";
 @import "components/footer";
 @import "components/massage-card";
+@import "components/icon";

@@ -1,0 +1,13 @@
+.icon {
+  @extend .lh-title;
+  vertical-align: middle;
+
+  &.icon-xl { font-size: 5em; }
+  &.icon-l  { font-size: 4em; }
+  &.icon-m  { font-size: 54px; }
+  &.icon-s  { font-size: 1.5em; }
+}
+
+/* Icon Mapping */
+.icon-checkmark     { @extend .ion-ios-checkmark-circle-outline; }
+

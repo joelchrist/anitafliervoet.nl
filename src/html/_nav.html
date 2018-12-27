@@ -6,7 +6,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131082009-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-131082009-1');
@@ -26,19 +30,22 @@
     <!--<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>-->
 
 </head>
-<body class="pa-m c-lighter">
+<body class="pa-m c-lighter bg-brand-lightest">
 
-<nav class="nav ph-l bg-brand">
-    <li class="ma-m">
-        <a href="/" class="@@whoami pa-xs c-light">Wie ben ik?</a>
-    </li>
-    <li class="ma-m">
-        <a href="/massages" class="@@massages pa-xs c-light">Massages</a>
-    </li>
-    <li class="ma-m">
-        <a href="/werkwijze" class="@@wayofworking pa-xs c-light">Werkwijze</a>
-    </li>
-    <li class="ma-m">
-        <a href="/reacties" class="@@reactions pa-xs c-light">Reacties</a>
-    </li>
+<nav class="nav ph-l bg-brand-darker">
+    <ul>
+        <li class="ma-m">
+            <a href="/" class="@@whoami pa-xs c-light">Wie ben ik?</a>
+        </li>
+        <li class="ma-m">
+            <a href="/massages" class="@@massages pa-xs c-light">Massages</a>
+        </li>
+        <li class="ma-m">
+            <a href="/werkwijze" class="@@wayofworking pa-xs c-light">Ontspanningsmiddagen</a>
+        </li>
+        <li class="ma-m">
+            <a href="/reacties" class="@@reactions pa-xs c-light">Reacties</a>
+        </li>
+    </ul>
+
 </nav>

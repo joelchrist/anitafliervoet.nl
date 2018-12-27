@@ -1,3 +1,34 @@
 body {
   font-family: $ff-default;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  @extend .fw-light;
+  @extend .lh-title;
+  @extend .mb-xs;
+}
+
+h1 { @extend .fs-h1; }
+h2 { @extend .fs-h2; }
+h3 { @extend .fs-h3; }
+h4 { @extend .fs-h4; }
+h5 { @extend .fs-h5; }
+h6 { @extend .fs-h6; }
+
+p, li {
+  @extend .fs-copy;
+  @extend .lh-copy;
+  @extend .fw-light;
+}
+
+a {
+  @extend .fw-light;
+}
+
+small {
+  @extend .fs-label;
+}
+
+strong {
+  @extend .fw-bold;
+}

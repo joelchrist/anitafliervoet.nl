@@ -60,7 +60,7 @@
 }
 
 @media #{$breakpoint-md} {
-  .grid.col-auto-m > .cell {
+  .grid.col-auto-md > .cell {
     flex: 0;
   }
   .grid.col-fit-md > .cell {
