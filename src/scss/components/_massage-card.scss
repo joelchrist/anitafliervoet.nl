@@ -1,6 +1,5 @@
 .massage-card {
   @extend .bs-heavy;
-  @extend .bg-brand-lighter;
 
   height: 100%;
 
@@ -15,7 +14,7 @@
 
   .massage-card-body {
     @extend .pa-m;
-    @extend .c-light;
+    @extend .c-darker;
 
   }
 }
