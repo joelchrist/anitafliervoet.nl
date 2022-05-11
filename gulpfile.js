@@ -1,6 +1,6 @@
 const gulp = require('gulp');
 const fileinclude = require('gulp-file-include');
-const sass = require('gulp-sass');
+const sass = require('gulp-sass')(require('sass'));
 const clean = require('gulp-dest-clean');
 const rename = require('gulp-rename');
 const foreach = require('gulp-foreach');
